@@ -1,0 +1,91 @@
+html,body,
+ul,li,ol,dl,dd,dt,
+p,h1,h2,h3,h4,h5,h6,
+form,input,select,textarea,button,
+fieldset,legend,img {
+  margin: 0;
+  padding: 0
+}
+body {
+	font-size: 14px;
+	line-height:1 ;
+	font-family:"微软雅黑", "黑体","宋体";
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+dl,ol,ul,li,menu {list-style:none}   
+blockquote, q {quotes: none}   /* 重置嵌套引用的引号类型 */  
+em,i {
+    font-style: normal
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+button {
+    cursor: pointer;
+}
+input,select,textarea,button {vertical-align:middle}  /* 重置表单控件垂直居中*/  
+table{
+    /*为表格设置合并边框模型*/
+    border-collapse: collapse;
+    /*设置表格边框之间的空白*/
+    border-spacing: 0px;
+}
+a,
+a:hover{ 
+	text-decoration: none;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a,input,button {
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ }
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+h1,h2,h3,h4,h5,h6,em,i,b,cite {
+    font-weight: normal;
+    font-style: normal;
+	line-height: 1;
+}
+
+p{
+	line-height: 1.5;
+}
+.org, 
+a.org:link, 
+a.org:visited {
+    color: #ff532c;
+}
+
+.btn {
+	display: block;
+	width: 100%;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	background: #ff532c;
+	border-radius: 4px;
+	margin: 10px auto;
+}
+.btn.nobegin{
+	background: #01af40;
+}
+.btn.ing{
+	background: #ff532c;
+}
+.btn.end {
+	background: #ccc;
+}
+input.btn{
+	border: 0;
+}
+a.btn{
+	color: #fff;
+}
